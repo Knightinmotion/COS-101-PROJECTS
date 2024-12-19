@@ -18,7 +18,8 @@ hausa_dict = {"come": "zo",
               }
 
 igbo_dict = {"water": "miri",
-             "poo": "shit"
+             "poo": "shit",
+             "problem": "nosba"
              }
 
 def search(word):
