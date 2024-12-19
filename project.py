@@ -17,16 +17,9 @@ hausa_dict = {"come": "zo",
               "food": "adinci"
               }
 
-igbo_dict = {"water": "miri",
-             "poo": "shit",
-             "problem": "nosba"
-             }
-
 def search(word):
     if word in hausa_dict:
         result.set(hausa_dict[word])
-    elif word in igbo_dict:
-        result.set(igbo_dict[word])
     else:
         result.set("Not found")
         print("Not found")
