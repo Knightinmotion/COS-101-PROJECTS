@@ -17,9 +17,12 @@ hausa_dict = {"come": "zo",
               "food": "adinci"
               }
 
+
+
 def search(word):
     if word in hausa_dict:
         result.set(hausa_dict[word])
+    
     else:
         result.set("Not found")
         print("Not found")
